@@ -7,7 +7,7 @@
 Затем мы запустили Minikube, указав, что хотим использовать его в качестве драйвера для создания локального кластера Kubernetes.
 ## Сборка Docker Image
 Далее, мы собрали и проверили работу Docker image. Также залили на docker hub
-https://hub.docker.com/layers/vovavoronin/kuber_nx_home/1.0.0/images/sha256-274b76f81eb115a29550a0d051f7be60c829d64297313c269efec794147f852b?context=repo
+https://hub.docker.com/repository/docker/simatsepilova/kuber_nx_home/general
 ```
 docker build -t vovavoronin/kuber_nx_home:1.0.0 .
 docker run -p 8000:8000 vovavoronin/kuber_nx_home:1.0.0
