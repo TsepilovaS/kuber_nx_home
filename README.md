@@ -18,3 +18,8 @@ docker push simatsepilova/kuber_nx_home:1.0.0
 kubectl apply -f web-deployment.yaml
 kubectl describe deployment web
 ```
+## Проверка работы
+Даем доступ к приложению внутри кластера и проверяем работу (скрин port-forward.PNG)
+```
+kubectl port-forward --address 0.0.0.0 deployment/web 8080:8000
+```
