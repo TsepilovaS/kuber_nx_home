@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: vovavoronin/kuber_nx_home:1.0.0
+        image: simatsepilova/kuber_nx_home:1.0.0
         ports:
         - containerPort: 8000
         livenessProbe:
