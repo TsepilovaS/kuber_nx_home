@@ -9,9 +9,9 @@
 Далее, мы собрали и проверили работу Docker image. Также залили на docker hub
 https://hub.docker.com/repository/docker/simatsepilova/kuber_nx_home/general
 ```
-docker build -t vovavoronin/kuber_nx_home:1.0.0 .
-docker run -p 8000:8000 vovavoronin/kuber_nx_home:1.0.0
-docker push vovavoronin/kuber_nx_home:1.0.0
+docker build -t simatsepilova/kuber_nx_home:1.0.0 .
+docker run -p 8000:8000 simatsepilova/kuber_nx_home:1.0.0
+docker push simatsepilova/kuber_nx_home:1.0.0
 ```
 ## Пишем деплоймент (web-deployment.yaml в репе) и вносим изменения и проверяем работу (PNG со скрином в репе)
 ```
